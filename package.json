@@ -1,0 +1,16 @@
+{
+  "name": "valentines",
+  "version": "1.0.0",
+  "description": "Send a message every hour to my loved one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anshika Anand",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "node-cron": "^3.0.0",
+    "twilio": "^3.74.0"
+  }
+}
