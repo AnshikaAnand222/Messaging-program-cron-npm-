@@ -7,7 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 
 const messages = require('./messages');
 
-const currentmessage = 0;
+var currentmessage = 0;
 
 function SendMessage() {
     client.messages
